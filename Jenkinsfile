@@ -10,7 +10,7 @@ pipeline {
 
         stage('Git Clone') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/VenkateshJaggaraju/maven_JAR_file.git'
             }
             post {
