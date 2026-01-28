@@ -11,7 +11,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/VenkateshJaggaraju/maven_JAR_file.git'
+                    url: 'https://github.com/sakit333/sak_spring_jenkins_mysql.git'
             }
             post {
                 success {
