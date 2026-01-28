@@ -11,7 +11,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/VenkateshJaggaraju/maven_projects.git'
+                    url: 'https://github.com/VenkateshJaggaraju/maven_JAR_file.git'
             }
             post {
                 success {
