@@ -10,7 +10,7 @@ pipeline {
 
         stage('Git Clone') {
             steps {
-                git branch: 'master', url: 'https://github.com/sakit333/sak_spring_jenkins_mysql.git'
+                git branch: 'master', url: 'https://github.com/sakit333/sak_spring_mysql_nginx.git'
             }
             post {
                 success {
